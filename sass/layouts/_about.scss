@@ -1,20 +1,20 @@
-.section-about{
+.about{
     background-color:var(--primari-background-color); 
 }
 
-.about-list{
+.about__list{
     display: flex;
     gap: 30px;
 }
-.about-item{
+.about__item{
     width: calc((100% - 60px) / 3); 
 }
 
-.about-images{
+.about__images{
     position: relative;
 }
 
-.about-text{
+.about__text{
     position: absolute;
     bottom: 0;
     width: 100%;
